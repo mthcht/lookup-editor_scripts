@@ -21,7 +21,10 @@ logging.basicConfig(level=logging.INFO)
 splunk_management_protocol = "https" # http or https
 splunk_management_dest = "FIXME" #example: myserver.local or 127.0.0.1
 splunk_management_port = "FIXME" #example default: 8089
-splunk_management_service = "/services/data/lookup_edit/lookup_contents" #endpoint lookup-editor (POST requests to this endpoint will execute  post_lookup_contents() from the lookup-editor app)
+
+# GET requests to this endpoint will execute get_lookup_contents() and POST requests to this endpoint will execute post_lookup_contents() from the lookup-editor app
+splunk_management_service = "/services/data/lookup_edit/lookup_contents" #endpoint lookup-editor 
+
 splunk_app = "search" #splunk app name, example: search
 splunk_username = "FIXME" #splunk user with needed permissions
 splunk_password = "FIXME" #splunk user password (i know..)
