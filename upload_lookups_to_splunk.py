@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # coding: utf-8
 
-# Simple python script using Splunk lookup-editor https://splunkbase.splunk.com/app/1724 rest endpoint to upload lookups
+# Simple python script using Splunk lookup-editor https://splunkbase.splunk.com/app/1724 rest endpoint to upload lookups (wiki https://lukemurphey.net/projects/splunk-lookup-editor/wiki/REST_endpoints)
 
 import json
 import requests
