@@ -61,7 +61,7 @@ splunk_management_service = "/services/data/lookup_edit/lookup_contents"
 splunk_app = "search" #splunk app name, example: search
 splunk_username = "FIXME" #splunk user with needed permissions
 splunk_password = "FIXME" #splunk user password (i know..)
-lookup_folder = "FIXME" #folder path which contains all the lookups you want to upload example (do not forget to put the / or \ at the end of the path) : \"C:\\lookups\" or \"/home/mthcht/lookups/\"
+lookup_folder = "FIXME" #folder path which contains all the lookups you want to upload example (do not forget to put the / or \ at the end of the path and escape the \ for windows path) : "C:\\lookups\\" or "/home/mthcht/lookups/"
 lookup_type = "csv"
 date = time.time()
 if args.lookups:
