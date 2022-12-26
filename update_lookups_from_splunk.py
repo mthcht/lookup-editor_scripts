@@ -66,7 +66,7 @@ lookup_type = "csv"
 date = time.time()
 if args.lookups:
     lookup_file_names_list=args.lookups
-     logging.info("list of lookups to update: {}".format(lookup_file_names_list))
+    logging.info("list of lookups to update: {}".format(lookup_file_names_list))
 else:
     lookup_file_names_list = ["test.csv"] # change this value with the lookup(s) you want to update automatically without giving the -l argument
 
