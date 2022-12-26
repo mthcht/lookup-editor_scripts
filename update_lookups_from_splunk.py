@@ -25,10 +25,9 @@ parser.add_argument("-f", "--csv_file", help="give the full path of a csv files 
 parser.add_argument("-l", "--lookups", nargs='+', help="Enter the name of the lookup(s) to update (don't forget the .csv), if the argument is not given, will take the default list declared in the script")
 args = parser.parse_args()
 
-if (args.ask_input and args.paste_csv_data and args.csv_file) or (args.paste_csv_data and args.csv_file)\
-     or (args.ask_input and args.paste_csv_data) or (args.ask_input and args.csv_file):
+if (args.ask_input and args.paste_csv_data and args.csv_file) or (args.paste_csv_data and args.csv_file) or (args.ask_input and args.paste_csv_data) or (args.ask_input and args.csv_file):
     parser.print_help()
-    logging.error("Error: you cannot use both arguments at the same time, use either method -i or method -p")
+    logging.error("Error: you cannot use these arguments at the same time, use either method -i or method -p")
     sys.exit(1)
 if len(sys.argv)==1:
     # display help message when no args are passed.
