@@ -18,7 +18,7 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 logging.basicConfig(level=logging.INFO)
 
 # Methods
-parser = argparse.ArgumentParser(description="Script upload_lookups_from_splunk.py: Update one or multiple lookups on Splunk, can be used for automation processes")
+parser = argparse.ArgumentParser(description="Script update_lookups_from_splunk.py: Update one or multiple lookups on Splunk, can be used for automation processes")
 parser.add_argument("-i", "--ask_input", help="Ask the user the input for each line to add",action="store_true")
 parser.add_argument("-p", "--paste_csv_data", help="Paste the values in this format (line separated by \\n):\nfield1,field2,field3 ...\n,value2,value3 ...\nvalue4,,value5 ...\nvalue6,, ...\n",action="store_true")
 parser.add_argument("-f", "--csv_file", help="give the full path of a csv files to merge with the lookups (separated by comma)")
@@ -61,7 +61,7 @@ splunk_management_service = "/services/data/lookup_edit/lookup_contents"
 splunk_app = "search" #splunk app name, example: search
 splunk_username = "FIXME" #splunk user with needed permissions
 splunk_password = "FIXME" #splunk user password (i know..)
-lookup_folder = "FIXME" #folder path which contains all the lookups you want to upload example (do not forget to put the / or \ at the end of the path and escape the \ for windows path) : "C:\\lookups\\" or "/home/mthcht/lookups/"
+lookup_folder = "FIXME" #folder path which contains all the lookups you want to download a backup, example (do not forget to put the / or \ at the end of the path and escape the \ for windows path) : "C:\\lookups\\" or "/home/mthcht/lookups/"
 lookup_type = "csv"
 date = time.time()
 if args.lookups:
