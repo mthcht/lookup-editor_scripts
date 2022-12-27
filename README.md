@@ -1,5 +1,6 @@
 # lookup-editor_scripts
 
+
 ## Upload lookups - [upload_lookups_to_splunk.py](https://github.com/mthcht/lookup-editor_scripts/blob/main/upload_lookups_to_splunk.py)
   - Simple script using splunk application [lookup-editor](https://splunkbase.splunk.com/app/1724) endpoint to upload multiple lookups at once:
 ![2022-12-24 08_37_55-Windows 10 and later x64 - VMware Workstation](https://user-images.githubusercontent.com/75267080/209426236-8a713d04-f128-4c52-97c3-0e2b6109aeac.png)
@@ -93,6 +94,14 @@ result:
 ![2022-12-26 22_27_12-Windows 10 and later x64 - VMware Workstation](https://user-images.githubusercontent.com/75267080/209584265-8a140ec5-d153-4f4c-a14d-3674b4e7203b.png)
 
 
+## Download lookups - [download_lookups_from_splunk.py](https://github.com/mthcht/lookup-editor_scripts/blob/main/download_lookups_from_splunk.py)
+- Simple script using splunk application [lookup-editor](https://splunkbase.splunk.com/app/1724) endpoint to download lookup(s) from splunk:
+
+no arguments (use default values declared in the script)
+![2022-12-27 19_04_48-Windows 10 and later x64 - VMware Workstation](https://user-images.githubusercontent.com/75267080/209706146-825392de-6341-4d20-b75d-bb8a7e4c40f2.png)
+
+with arguments:
+![2022-12-27 19_10_50-Windows 10 and later x64 - VMware Workstation](https://user-images.githubusercontent.com/75267080/209706214-9166f846-b7db-484b-ab5f-38d78513d69f.png)
 
 
 
