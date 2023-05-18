@@ -104,8 +104,4 @@ with arguments:
 ![2022-12-27 19_10_50-Windows 10 and later x64 - VMware Workstation](https://user-images.githubusercontent.com/75267080/209706214-9166f846-b7db-484b-ab5f-38d78513d69f.png)
 
 
-
-
-
-
-
+[update 2023/05] you can also check out the script https://github.com/beckyburwell/splunk_rest_upload_lookups using the same endpoint API
