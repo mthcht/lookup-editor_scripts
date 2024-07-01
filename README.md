@@ -1,8 +1,9 @@
-# lookup-editor_scripts
+# lookup-editor_scripts 
 
 
 ## Upload lookups - [upload_lookups_to_splunk.py](https://github.com/mthcht/lookup-editor_scripts/blob/main/upload_lookups_to_splunk.py)
-  - Simple script using splunk application [lookup-editor](https://splunkbase.splunk.com/app/1724) endpoint to upload multiple lookups at once:
+  - Simple script using splunk application [lookup-editor](https://splunkbase.splunk.com/app/1724) (renamed Splunk App for Lookup File Editing
+) endpoint to upload multiple lookups at once:
 ![2022-12-24 08_37_55-Windows 10 and later x64 - VMware Workstation](https://user-images.githubusercontent.com/75267080/209426236-8a713d04-f128-4c52-97c3-0e2b6109aeac.png)
 
 
